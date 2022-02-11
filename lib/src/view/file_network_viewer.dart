@@ -177,7 +177,15 @@ class _FileNetworkViewerState extends State<FileNetworkViewer> {
       ),
     ];
   }
-
+  
+  void onPressed() async {
+      if (isDownload) {
+          await _download();
+        } else {
+          widget.onViewPressed();
+        }
+  }
+  
   ///
   /// Download Button
   ///
