@@ -8,7 +8,7 @@ import 'package:flutter_file_view/flutter_file_view.dart';
 /// @Author: LiWeNHuI
 /// @Date: 2021/9/14
 ///
-GlobalKey<_FileNetworkViewerState> childKey = GlobalKey();
+GlobalKey<_FileNetworkViewerState> fileNetworkViewerKey = GlobalKey();
 class FileNetworkViewer extends StatefulWidget {
   const FileNetworkViewer({
     Key? key,
